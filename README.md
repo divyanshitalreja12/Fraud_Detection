@@ -143,12 +143,4 @@ Actual metrics are generated when you run the project; do not write expected or 
 - Frequency encoding is a practical baseline for this MLP, but it does not learn category embeddings. That can be explored as a future improvement.
 - The dataset is subject to Kaggle competition terms. Do not redistribute the raw data.
 
-## 9. Suggested resume wording (only after you have run it)
 
-**Intelligent Financial Fraud Detection using Deep MLP**
-- Built a deep MLP pipeline on the IEEE-CIS transaction dataset to classify fraudulent and legitimate transactions.
-- Implemented time-aware data splitting, missing-value handling, frequency encoding, feature scaling and class-weighted training.
-- Compared network capacity, Adam/RMSprop/AdamW, dropout, L2 regularization, batch normalization and learning-rate scheduling.
-- Evaluated using validation PR-AUC and held-out test precision, recall, F1, ROC-AUC and confusion matrix.
-
-Replace this wording with actual dataset counts, selected configuration and measured scores from your run.
